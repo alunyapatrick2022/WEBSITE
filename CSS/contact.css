@@ -1,0 +1,105 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.container2 {
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid blue;
+    background-image: url("/IMAGES/codecoretechfavicon.png");
+    background-size: cover;
+}
+h1 {
+
+   
+    font-size: 40px;
+    text-align: center;
+    background-color: darkcyan;
+    padding: auto;
+    margin: auto;
+    
+}
+
+.navbar {
+
+    background-color: goldenrod;
+    overflow: hidden;
+    text-align: right;
+    padding: auto;
+    margin: auto;
+}
+
+.navbar a {
+
+    float: right;
+    display: block;
+    color: blue;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+
+    color: red;
+}
+
+.contact-icons a {
+     
+    text-decoration: none;
+    color: blue;
+    margin: 1rem;
+    align-items: center;
+    padding-left: 0;
+
+}
+
+.contact-icons img {
+
+    width: 50px;
+    gap: 0;
+    height: 30px;
+    
+}
+
+
+.social-icons {
+
+      font-size: 24px;
+      
+}
+
+.social-icons a {
+    
+    text-decoration: blue;
+    color: #333;
+    margin: 0 10px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.whatsapp-icon {
+
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    z-index: 900;
+}
+
+.whatsapp-icon a {
+
+    display: block;
+}
+
+.whatsapp-icon img {
+
+    width: 45px;
+    height: 45px;
+}
+
+
