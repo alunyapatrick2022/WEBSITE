@@ -18,14 +18,14 @@ function changeBackgroundColor() {
 {
   function changeBackgroundImage() {
   const element = document.getElementsByClassName("myElement");
-  const images = ['/IMAGES/hiBrenda.jpg','/IMAGES/hiCecilia.jpg','/IMAGES/hiJeru.jpg','/IMAGES/hiMaggie.jpg','/IMAGES/hiMicky.jpg','/IMAGES/hiNoel.jpg','/IMAGES/hiPatrick.jpg','/IMAGES/hiPaul.jpg','/IMAGES/hoRodah.jpg'];
+  const images = [' ',' ',' ',' ',' ',' ',' ',' ',' '];
   let currentIndex = 0;
 
   
   setInterval(()=> {
     element[2].style.backgroundImage = `url('{'$images[currentImageIndex]}')`;
     currentIndex = (currentIndex + 1) % images.length;
-  },2000);
+  },200);
 
   }
 }
