@@ -1,5 +1,8 @@
 {
     "recommendations": [
-        "ritwickdey.liveserver"
+        "ritwickdey.liveserver",
+        "xdebug.php-pack",
+        "zobo.php-intellisense",
+        "xdebug.php-debug"
     ]
 }

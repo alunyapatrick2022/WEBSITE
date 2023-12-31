@@ -7,7 +7,7 @@ function changeBackgroundColor() {
     setInterval(()=> {
       element[0].style.backgroundColor = colors[currentIndex];
       currentIndex = (currentIndex+1)%colors.length;
-    },5000);
+    },1000);
  
   }
 
@@ -39,16 +39,4 @@ function changeBackgroundColor() {
    
   }
    changeIconSize();
-}
-
-
-
-{
-const whatsappIcon = document.getElementById("whatsapp-icon");
-
-whatsappIcon.addActionEvent("click", function() {
-
-  window.location.href = "https://api.whatsapp.com/send?phone=+254115348341&text=+Hello,+Patrick,+Welcome+to+Codecoretechnologies";
-
-  });
 }
