@@ -3,6 +3,7 @@
         "ritwickdey.liveserver",
         "xdebug.php-pack",
         "zobo.php-intellisense",
-        "xdebug.php-debug"
+        "xdebug.php-debug",
+        "eamodio.gitlens"
     ]
 }
